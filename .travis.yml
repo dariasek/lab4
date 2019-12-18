@@ -2,6 +2,6 @@ language: python
 python: 
   - "3.7.4" 
 install: 
-  - pip3 install numpy tqdm
+  - pip3 install numpy tqdm pillow
 script:
   - python -m doctest -v utils.py 
